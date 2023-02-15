@@ -35,6 +35,7 @@ try:
         sent_packet_count = sent_packet_count+2
         print("\r[+] Packet sent: " + str(sent_packet_count), end="")
         time.sleep(2)
+        
 except KeyboardInterrupt:
     print("\n[+] Detected CTRL + C")
     print("[+] Restoring default settings")
